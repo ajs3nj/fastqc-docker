@@ -25,4 +25,5 @@ PWD=$(pwd)
 Then mount and use your current directory and call the tool now encapsulated within the environment.
 ```bash
 docker run -it -v $PWD:$PWD -w $PWD fastqc fastqc -h
-gh auth login```
+gh auth login
+```
